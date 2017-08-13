@@ -1,6 +1,6 @@
-<h1>Create an article</h1>
+<h1>Edit this Article</h1>
 
-  <% if @article.errors.any? %>
+<% if @article.errors.any? %>
   <h2>The following errors prevented the article from beign created</h2>
   <ul>
     <% @article.errors.full_messages.each do |msg| %>
@@ -21,6 +21,5 @@
     <p>
       <%= f.submit %>
     </p>
-    <%= link_to "Back to articles listing", articles_path %>
-
 <% end %>
+<%= link_to "Back to articles listing", articles_path %>
