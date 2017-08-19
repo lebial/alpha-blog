@@ -1,2 +1,20 @@
-@import "bootstrap-sprockets";
+$navbar-color: #371168;
+
+.bg-purple{
+	background-color: $navbar-color;
+}
+
+#logo{
+	float: left;
+	font-size: 1.7em;
+	color:white;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#logo:hover {
+	color:white;
+	text-decoration: none;
+}
 @import "bootstrap";
