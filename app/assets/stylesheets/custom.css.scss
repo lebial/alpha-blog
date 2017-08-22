@@ -17,4 +17,36 @@ $navbar-color: #371168;
 	color:white;
 	text-decoration: none;
 }
+.center{
+	text-align: center;
+}
+.jumbotron{
+	background-image: asset-url('words.jpg');
+	background-size: cover;
+	height:550px;
+	margin-top: 20px;
+}
+footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 2px solid #7d8187;
+}
+footer a:hover {
+	color: 222;
+}
+footer small {
+	float: left;
+}
+footer ul{
+	float: right;
+	list-style: none;
+}
+footer ul li{
+	float: left;
+	margin-left: 15px;
+}
+.navbar{
+	padding-bottom: 15px;
+}
+
 @import "bootstrap";
