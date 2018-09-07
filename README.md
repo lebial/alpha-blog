@@ -1,1 +1,1 @@
-This is the repo for the first app of the course.
+Ruby on Rails small project for learning purposes.
